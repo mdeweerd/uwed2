@@ -27,8 +27,6 @@ if [ 1 -eq 1 ]  ; then
 # Smallcap added for testing, reg2 partially added (without the regulator) for testing
 VARIANT="^(.*)$"
 VNAME="proto"
-kicost --currency EUR  --debug 10 -i ${SOURCE} ${EXCLUDES} -o ${TMPFILE}${VNAME}${EXT} -var $VARIANT --overwrite ${PARALLEL} --ignore_fields ${IGNORE_FIELDS} ${EXTRAOPTS}
+kicost --currency USD  --debug 10 -i ${SOURCE} ${EXCLUDES} -o ${TMPFILE}${VNAME}${EXT} --variant $VARIANT --overwrite ${PARALLEL} --ignore_fields ${IGNORE_FIELDS} ${EXTRAOPTS}
 mv ${TMPFILE}${VNAME}${EXT} ${OUTFILE}_${VNAME}${EXT}
 fi
-
-exit

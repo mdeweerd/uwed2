@@ -1,0 +1,1606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\mdeweerd\KiCAD\uwed-kicad\UWED.sch</source>
+    <date>07/04/2021 01:04:34</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>UWED.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC3">
+      <value>4OPAMPS-AD8608ARUZ</value>
+      <footprint>UWED:MSOP14_0.65MM</footprint>
+      <fields>
+        <field name="Description">4x oparetional amplifiers</field>
+        <field name="MPN">AD8608ARUZ</field>
+        <field name="desc">QUAD OPAMP</field>
+        <field name="digikey.manf#">AD868ARUZ-ND</field>
+        <field name="manf">Analog Devices</field>
+        <field name="manf#">AD8608ARUZ</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="4OPAMPS-AD8608ARUZ" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>89E33A62</tstamp>
+    </comp>
+    <comp ref="IC8">
+      <value>ADC_LTC2471IMS</value>
+      <footprint>UWED:MSOP12_0.65MM</footprint>
+      <fields>
+        <field name="Description">16-bit ADC, I2C</field>
+        <field name="MPN">LTC2471IMS#PBF</field>
+        <field name="desc">16-bit ADC, I2C</field>
+        <field name="digikey.manf#">LTC2471IMS#PBFND</field>
+        <field name="manf">Analog Devices</field>
+        <field name="manf#">LTC2471IMS#PBF</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="ADC_LTC2471IMS" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>87B7DF34</tstamp>
+    </comp>
+    <comp ref="U$6">
+      <value>CONTACT_PADS_SMD_2</value>
+      <footprint>UWED:CONTACT_PADS_SMD_2</footprint>
+      <fields>
+        <field name="dnp">1</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="CONTACT_PADS_SMD_2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>CE08125E</tstamp>
+    </comp>
+    <comp ref="U$7">
+      <value>CONTACT_PADS_SMD_2</value>
+      <footprint>UWED:CONTACT_PADS_SMD_2</footprint>
+      <fields>
+        <field name="dnp">1</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="CONTACT_PADS_SMD_2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63C62AE7</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>DAC_AD5667RBRMZ-2</value>
+      <footprint>UWED:MSOP10_0.5MM</footprint>
+      <fields>
+        <field name="Description">Dual DAC. 16-bit I2C</field>
+        <field name="MPN">AD5667RBRMZ-2</field>
+        <field name="desc">Dual DAC. 16-bit I2C</field>
+        <field name="digikey.manf#">AD5667RBRMZ-2-ND</field>
+        <field name="manf">Analog Devices</field>
+        <field name="manf#">AD5667RBRMZ-2</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="DAC_AD5667RBRMZ-2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59F585D1</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>PJ-032H-SMT-TR</value>
+      <footprint>UWED:PJ-032H-SMT</footprint>
+      <fields>
+        <field name="Description">Jack 0.7x2.35mm</field>
+        <field name="MPN">PJ-032H-SMT-TR</field>
+        <field name="desc">Jack 0.7x2.35mm</field>
+        <field name="digikey.manf#">CP-032HPJCT-ND</field>
+        <field name="manf">	CUI Inc.</field>
+        <field name="manf#">PJ-032H-SMT-TR</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="DC_JACK_0.7MM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9E0009A5</tstamp>
+    </comp>
+    <comp ref="IC4">
+      <value>LDO-MIC5205-3.3YM5-TR</value>
+      <footprint>UWED:SOT-23-6</footprint>
+      <fields>
+        <field name="Description">LDO 3V3</field>
+        <field name="MPN">MIC5205-3.3YM5-TR</field>
+        <field name="desc">LDO 3V3</field>
+        <field name="digikey.manf#">576-1259-1-ND</field>
+        <field name="manf">Micron</field>
+        <field name="manf#">MIC5205-3.3YM5-TR</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="LDO-MIC5205-3.3YM5-TR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>2B263A79</tstamp>
+    </comp>
+    <comp ref="IC5">
+      <value>LDO-MIC5205-3.3YM5-TR</value>
+      <footprint>UWED:SOT-23-6</footprint>
+      <fields>
+        <field name="Description">LDO 3V3</field>
+        <field name="MPN">MIC5205-3.3YM5-TR</field>
+        <field name="desc">LDO 3V3</field>
+        <field name="digikey.manf#">576-1259-1-ND</field>
+        <field name="manf">Micron</field>
+        <field name="manf#">MIC5205-3.3YM5-TR</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="LDO-MIC5205-3.3YM5-TR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>ABBF7E6D</tstamp>
+    </comp>
+    <comp ref="IC6">
+      <value>SWITCH_MAX4643EUA</value>
+      <footprint>UWED:MSOP8_0.65MM</footprint>
+      <fields>
+        <field name="Description">Dual switch</field>
+        <field name="MPN">MAX4643EUA+</field>
+        <field name="desc">Dual switch</field>
+        <field name="digikey.manf#">MAX4643EUA+-ND</field>
+        <field name="manf">Maxim</field>
+        <field name="manf#">MAX4643EUA+</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="SWITCH_MAX4643EUA" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>FCFA34DC</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>34EWMSP12M6RT</value>
+      <footprint>UWED:TOGGLE_34E</footprint>
+      <fields>
+        <field name="Description">Power switch</field>
+        <field name="MPN">34EWMSP12M6RT</field>
+        <field name="desc">Toggle Switch SPDT Surface Mount, Right Angle</field>
+        <field name="digikey.manf#">GH7540CT-ND</field>
+        <field name="manf">Grayhill Inc.</field>
+        <field name="manf#">34EWMSP12M6RT</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="SW_TOGGLELARGE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0B5D2212</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">LDO input cap</field>
+        <field name="desc">CAP 10u 0805</field>
+        <field name="digikey.manf#">490-3340-1-ND</field>
+        <field name="manf">Murata Electronics</field>
+        <field name="manf#">GRM219R60J106KE19D</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>24F56349</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">LDO input cap</field>
+        <field name="desc">CAP 10u 0805</field>
+        <field name="digikey.manf#">490-3340-1-ND</field>
+        <field name="manf">Murata Electronics</field>
+        <field name="manf#">GRM219R60J106KE19D</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4071D1F9</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>470p</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">LDO cap.</field>
+        <field name="desc">CAP 470p 0805</field>
+        <field name="digikey.manf#">1276-1300-1-ND</field>
+        <field name="manf">Samsung Electro-Mechanics</field>
+        <field name="manf#">	CL21B471KBANNNC</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00CB58E1</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>470p</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">LDO cap.</field>
+        <field name="desc">CAP 470p 0805</field>
+        <field name="digikey.manf#">1276-1300-1-ND</field>
+        <field name="manf">Samsung Electro-Mechanics</field>
+        <field name="manf#">	CL21B471KBANNNC</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>8B5AD75A</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10u</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">LDO output cap</field>
+        <field name="desc">CAP 10u 0805</field>
+        <field name="digikey.manf#">490-3340-1-ND</field>
+        <field name="manf">Murata Electronics</field>
+        <field name="manf#">GRM219R60J106KE19D</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>A35C59BC</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10u</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">LDO output cap</field>
+        <field name="desc">CAP 10u 0805</field>
+        <field name="digikey.manf#">490-3340-1-ND</field>
+        <field name="manf">Murata Electronics</field>
+        <field name="manf#">GRM219R60J106KE19D</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0CFD014E</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">LDO output cap</field>
+        <field name="desc">CAP 100n 0805</field>
+        <field name="digikey.manf#">478-1395-1-ND</field>
+        <field name="manf">AVX Corporation</field>
+        <field name="manf#">08055C104KAT2A</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>49F108FA</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">LDO output cap</field>
+        <field name="desc">CAP 100n 0805</field>
+        <field name="digikey.manf#">478-1395-1-ND</field>
+        <field name="manf">AVX Corporation</field>
+        <field name="manf#">08055C104KAT2A</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>2F4B506D</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">Filter cap.</field>
+        <field name="desc">CAP 100n 0805</field>
+        <field name="digikey.manf#">478-1395-1-ND</field>
+        <field name="manf">AVX Corporation</field>
+        <field name="manf#">08055C104KAT2A</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7D4536D2</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10n</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">Filter cap.</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="desc">CAP 10n 0805</field>
+        <field name="digikey.manf#">311-1136-1-ND</field>
+        <field name="manf#">CC0805KRX7R9BB103</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>E6471815</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">Filter cap.</field>
+        <field name="desc">CAP 100n 0805</field>
+        <field name="digikey.manf#">478-1395-1-ND</field>
+        <field name="manf">AVX Corporation</field>
+        <field name="manf#">08055C104KAT2A</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>DC2BCD37</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10n</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">Filter cap.</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="desc">CAP 10n 0805</field>
+        <field name="digikey.manf#">311-1136-1-ND</field>
+        <field name="manf#">CC0805KRX7R9BB103</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>C9F266B1</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">WE aplifier cap</field>
+        <field name="desc">CAP 100n 0805</field>
+        <field name="digikey.manf#">478-1395-1-ND</field>
+        <field name="manf">AVX Corporation</field>
+        <field name="manf#">08055C104KAT2A</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>E10CB6A7</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">Ext ADC cap.</field>
+        <field name="desc">CAP 100n 0805</field>
+        <field name="digikey.manf#">478-1395-1-ND</field>
+        <field name="manf">AVX Corporation</field>
+        <field name="manf#">08055C104KAT2A</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9D093897</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">Ext ADC cap.</field>
+        <field name="desc">CAP 100n 0805</field>
+        <field name="digikey.manf#">478-1395-1-ND</field>
+        <field name="manf">AVX Corporation</field>
+        <field name="manf#">08055C104KAT2A</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4EF73EC9</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10u</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">DAC power cap.</field>
+        <field name="desc">CAP 10u 0805</field>
+        <field name="digikey.manf#">490-3340-1-ND</field>
+        <field name="manf">Murata Electronics</field>
+        <field name="manf#">GRM219R60J106KE19D</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>D5459529</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">DAC power cap.</field>
+        <field name="desc">CAP 100n 0805</field>
+        <field name="digikey.manf#">478-1395-1-ND</field>
+        <field name="manf">AVX Corporation</field>
+        <field name="manf#">08055C104KAT2A</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>CE46CD9A</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>10u</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">ADC power cap.</field>
+        <field name="desc">CAP 10u 0805</field>
+        <field name="digikey.manf#">490-3340-1-ND</field>
+        <field name="manf">Murata Electronics</field>
+        <field name="manf#">GRM219R60J106KE19D</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>15F8A7BA</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">ADC power cap</field>
+        <field name="desc">CAP 100n 0805</field>
+        <field name="digikey.manf#">478-1395-1-ND</field>
+        <field name="manf">AVX Corporation</field>
+        <field name="manf#">08055C104KAT2A</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>BEA4D22F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k2</value>
+      <footprint>UWED:R0805</footprint>
+      <fields>
+        <field name="Description">RES 1K2 0806</field>
+        <field name="desc">RES 1K2 0806</field>
+        <field name="digikey.manf#">RR12P1.2KDCT-ND</field>
+        <field name="manf">Susumu</field>
+        <field name="manf#">RR1220P-122-D</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="R-US_R0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54673866</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>16k2</value>
+      <footprint>UWED:R0805</footprint>
+      <fields>
+        <field name="Description">RES 16K2 0806</field>
+        <field name="desc">RES 16K2 0806</field>
+        <field name="digikey.manf#">311-16.2KCRCT-ND</field>
+        <field name="manf">Yageo</field>
+        <field name="manf#">RC0805FR-0716K2L</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="R-US_R0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>855FDFDB</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>845R</value>
+      <footprint>UWED:R0805</footprint>
+      <fields>
+        <field name="Description">RES 845R 0806</field>
+        <field name="desc">RES 845R 0806</field>
+        <field name="digikey.manf#">311-845CRCT-ND</field>
+        <field name="manf">Yageo</field>
+        <field name="manf#">RC0805FR-07845RL</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="R-US_R0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>A00BD228</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>29k4</value>
+      <footprint>UWED:R0805</footprint>
+      <fields>
+        <field name="Description">RES 29K4 0806</field>
+        <field name="desc">RES 29K4 0806</field>
+        <field name="digikey.manf#">311-29.4KCRCT-ND</field>
+        <field name="manf">Yageo</field>
+        <field name="manf#">RC0805FR-0729K4L</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="R-US_R0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>BA9F59F4</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>8k6</value>
+      <footprint>UWED:R0805</footprint>
+      <fields>
+        <field name="desc">RES 8K06 0806</field>
+        <field name="digikey.manf#">311-8.06KCRCT-ND</field>
+        <field name="manf">Yageo</field>
+        <field name="manf#">RC0805FR-078K06L</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="R-US_R0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>CAE48B39</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>DNP</value>
+      <footprint>UWED:R0805</footprint>
+      <fields>
+        <field name="Description">RES 0R 0806</field>
+        <field name="desc">RES 0R 0806</field>
+        <field name="digikey.manf#">541-4126-1-ND</field>
+        <field name="dnp">1</field>
+        <field name="manf">Vishay Dale</field>
+        <field name="manf#">	CRCW08050000Z0EBC</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="R-US_R0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>1BE7E303</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>OR</value>
+      <footprint>UWED:R0805</footprint>
+      <fields>
+        <field name="Description">RES 0R 0806</field>
+        <field name="desc">RES 0R 0806</field>
+        <field name="digikey.manf#">541-4126-1-ND</field>
+        <field name="manf">Vishay Dale</field>
+        <field name="manf#">	CRCW08050000Z0EBC</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="R-US_R0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>E67A151D</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100k</value>
+      <footprint>UWED:R0805</footprint>
+      <fields>
+        <field name="Description">RES 100K 0806</field>
+        <field name="desc">RES 100K 0806</field>
+        <field name="digikey.manf#">541-4164-1-ND</field>
+        <field name="manf">Vishay Dale</field>
+        <field name="manf#">CRCW0805100KJNEAC</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="R-US_R0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3B37D644</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>DNP</value>
+      <footprint>UWED:SOD80C</footprint>
+      <fields>
+        <field name="Description">PMLL4150</field>
+        <field name="desc">DNP  Log Diode</field>
+        <field name="dnp">1</field>
+        <field name="manf">NXP Semiconductors</field>
+        <field name="manf#">PMLL4150</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="PMLL4150" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>C78C3FBD</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>DNP</value>
+      <footprint>UWED:SOD80C</footprint>
+      <fields>
+        <field name="Description">PMLL4150</field>
+        <field name="desc">DNP  Log Diode</field>
+        <field name="dnp">1</field>
+        <field name="manf">NXP Semiconductors</field>
+        <field name="manf#">PMLL4150</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="PMLL4150" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0CADE672</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>DNP</value>
+      <footprint>UWED:SOD80C</footprint>
+      <fields>
+        <field name="Description">PMLL4150</field>
+        <field name="desc">DNP  Log Diode</field>
+        <field name="dnp">1</field>
+        <field name="manf">NXP Semiconductors</field>
+        <field name="manf#">PMLL4150</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="PMLL4150" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>93886C31</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>DNP</value>
+      <footprint>UWED:SOD80C</footprint>
+      <fields>
+        <field name="Description">PMLL4150</field>
+        <field name="desc">DNP  Log Diode</field>
+        <field name="dnp">1</field>
+        <field name="manf">NXP Semiconductors</field>
+        <field name="manf#">PMLL4150</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="PMLL4150" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>04403A79</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>LED (blue)</value>
+      <footprint>UWED:SML0805</footprint>
+      <fields>
+        <field name="desc">Led Blue Clear 0805</field>
+        <field name="digikey.manf#">VAOL-S8SB4CT-ND</field>
+        <field name="manf">Visual Communications Company - VCC</field>
+        <field name="manf#">VAOL-S8SB4</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="LEDSML0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7DC8C285</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>DNP</value>
+      <footprint>UWED:SOD80C</footprint>
+      <fields>
+        <field name="Description">PMLL4150</field>
+        <field name="desc">DNP  Log Diode</field>
+        <field name="dnp">1</field>
+        <field name="manf">NXP Semiconductors</field>
+        <field name="manf#">PMLL4150</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="PMLL4150" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>8D7F21E8</tstamp>
+    </comp>
+    <comp ref="U$15">
+      <value>CONTACT_PADS_SMD_2</value>
+      <footprint>UWED:CONTACT_PADS_SMD_2</footprint>
+      <fields>
+        <field name="dnp">1</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="CONTACT_PADS_SMD_2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0C3EC839</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <footprint>UWED:R0805</footprint>
+      <fields>
+        <field name="Description">RES 100K 0806</field>
+        <field name="desc">RES 100K 0806</field>
+        <field name="digikey.manf#">541-4164-1-ND</field>
+        <field name="manf">Vishay Dale</field>
+        <field name="manf#">CRCW0805100KJNEAC</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="R-US_R0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>295F0D93</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>845R</value>
+      <footprint>UWED:R0805</footprint>
+      <fields>
+        <field name="Description">RES 845R 0806</field>
+        <field name="desc">RES 845R 0806</field>
+        <field name="digikey.manf#">311-845CRCT-ND</field>
+        <field name="manf">Yageo</field>
+        <field name="manf#">RC0805FR-07845RL</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="R-US_R0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>CB121278</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>ESP32-WROOM-32</value>
+      <footprint>digikey-footprints:ESP32-WROOM-32D</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="Category">RF/IF and RFID</field>
+        <field name="DK_Datasheet_Link">https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/espressif-systems/ESP32-WROOM-32/1904-1010-1-ND/8544305</field>
+        <field name="Description">SMD MODULE, ESP32-D0WDQ6, 32MBIT</field>
+        <field name="Family">RF Transceiver Modules</field>
+        <field name="MPN">ESP32-WROOM-32</field>
+        <field name="Manufacturer">Espressif Systems</field>
+        <field name="Status">Active</field>
+        <field name="desc">SMD MODULE, ESP32-D0WDQ6, 32MBIT</field>
+        <field name="digikey.manf#">1904-1010-1-ND</field>
+        <field name="manf">Espressif Systems</field>
+        <field name="manf#">ESP32-WROOM-32</field>
+      </fields>
+      <libsource lib="dk_RF-Transceiver-Modules" part="ESP32-WROOM-32" description="SMD MODULE, ESP32-D0WDQ6, 32MBIT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC146FD</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>DNP</value>
+      <footprint>UWED:SOD80C</footprint>
+      <fields>
+        <field name="Description">PMLL4150</field>
+        <field name="desc">DNP  Log Diode</field>
+        <field name="dnp">1</field>
+        <field name="manf">NXP Semiconductors</field>
+        <field name="manf#">PMLL4150</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="PMLL4150" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>A8F36FED</tstamp>
+    </comp>
+    <comp ref="IC7">
+      <value>SWITCH_MAX4644EUT</value>
+      <footprint>UWED:SOT-23-6</footprint>
+      <fields>
+        <field name="Description">Single switch</field>
+        <field name="MPN">MAX4644EUT+T</field>
+        <field name="desc">Single switch</field>
+        <field name="digikey.manf#">MAX4644EUT+TCTND</field>
+        <field name="manf">Maxim</field>
+        <field name="manf#">MAX4644EUT+T</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="SWITCH_MAX4644EUT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>33430DC8</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>100k</value>
+      <footprint>UWED:R0805</footprint>
+      <fields>
+        <field name="Description">RES 100K 0806</field>
+        <field name="desc">RES 100K 0806</field>
+        <field name="digikey.manf#">541-4164-1-ND</field>
+        <field name="manf">Vishay Dale</field>
+        <field name="manf#">CRCW0805100KJNEAC</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="R-US_R0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D27B502</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>470R</value>
+      <footprint>UWED:R0805</footprint>
+      <fields>
+        <field name="Description">RES 470R 0806</field>
+        <field name="desc">RES 470R 0806</field>
+        <field name="digikey.manf#">A130132CT-ND</field>
+        <field name="manf">TE Connectivity</field>
+        <field name="manf#">CRGCQ0805J470R</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="R-US_R0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3830C6</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>DNP</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="dnp">1</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D308CDF</tstamp>
+    </comp>
+    <comp ref="BOOT1">
+      <value>KMR221G LFS</value>
+      <footprint>Buttons_Switches_SMD:SW_SPST_KMR2</footprint>
+      <datasheet>http://www.mouser.com/ds/2/60/kmr2-1109400.pdf</datasheet>
+      <fields>
+        <field name="Description">Microminiature SMT Switch</field>
+        <field name="desc">Microminiature SMT Switch</field>
+        <field name="digikey.manf#">401-1427-1-ND</field>
+        <field name="manf">C&amp;K Components</field>
+        <field name="manf#">KMR221G LFS</field>
+        <field name="mouser.manf#">611-KMR221G-LFS</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4CFAAC</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>1n</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">Button cap</field>
+        <field name="desc">CAP 1n 0805</field>
+        <field name="digikey.manf#">399-16641-1-ND</field>
+        <field name="manf">KEMET</field>
+        <field name="manf#">C0805C102KARACAUTO</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D522EF6</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>470R</value>
+      <footprint>UWED:R0805</footprint>
+      <fields>
+        <field name="Description">RES 470R 0806</field>
+        <field name="desc">RES 470R 0806</field>
+        <field name="digikey.manf#">A130132CT-ND</field>
+        <field name="manf">TE Connectivity</field>
+        <field name="manf#">CRGCQ0805J470R</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="R-US_R0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5DE2F1</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>1n</value>
+      <footprint>UWED:C0805</footprint>
+      <fields>
+        <field name="Description">Button cap</field>
+        <field name="desc">CAP 1n 0805</field>
+        <field name="digikey.manf#">399-16641-1-ND</field>
+        <field name="manf">KEMET</field>
+        <field name="manf#">C0805C102KARACAUTO</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="C-USC0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5DE306</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>UWED:R0805</footprint>
+      <fields>
+        <field name="Description">RES 10K 0806</field>
+        <field name="desc">RES 10K 0806</field>
+        <field name="digikey.manf#">541-4163-1-ND</field>
+        <field name="manf">Vishay Dale</field>
+        <field name="manf#">	CRCW080510K0JNEAC</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="R-US_R0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6EE9D3</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>UWED:R0805</footprint>
+      <fields>
+        <field name="Description">RES 10K 0806</field>
+        <field name="desc">RES 10K 0806</field>
+        <field name="digikey.manf#">541-4163-1-ND</field>
+        <field name="manf">Vishay Dale</field>
+        <field name="manf#">	CRCW080510K0JNEAC</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="R-US_R0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7006FC</tstamp>
+    </comp>
+    <comp ref="EN1">
+      <value>KMR221G LFS</value>
+      <footprint>Buttons_Switches_SMD:SW_SPST_KMR2</footprint>
+      <datasheet>http://www.mouser.com/ds/2/60/kmr2-1109400.pdf</datasheet>
+      <fields>
+        <field name="Description">Microminiature SMT Switch</field>
+        <field name="desc">Microminiature SMT Switch</field>
+        <field name="digikey.manf#">401-1427-1-ND</field>
+        <field name="manf">C&amp;K Components</field>
+        <field name="manf#">KMR221G LFS</field>
+        <field name="mouser.manf#">611-KMR221G-LFS</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D92C879</tstamp>
+    </comp>
+    <comp ref="U$3">
+      <value>CONTACT_PADS_SMD_2</value>
+      <footprint>UWED:CONTACT_PADS_SMD_2</footprint>
+      <fields>
+        <field name="dnp">1</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="CONTACT_PADS_SMD_2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6E1B97F5</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>DNP</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="dnp">1</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBE591B</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF856F6</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP73812T-420I-OT</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5_HandSoldering</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf</datasheet>
+      <libsource lib="Battery_Management" part="MCP73812T-420I-OT" description="Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 50mA-500mA, 4.2V, SOT23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D085EA2</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>4K7</value>
+      <footprint>UWED:R0805</footprint>
+      <fields>
+        <field name="Description">RES 470R 0806</field>
+        <field name="desc">RES 470R 0806</field>
+        <field name="digikey.manf#">A130132CT-ND</field>
+        <field name="manf">TE Connectivity</field>
+        <field name="manf#">CRGCQ0805J4K70</field>
+      </fields>
+      <libsource lib="UWED-eagle-import" part="R-US_R0805" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0902E9</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Battery_Management" part="MCP73812T-420I-OT">
+      <aliases>
+        <alias>MCP73812T-435I-OT</alias>
+        <alias>MCP73811T-420I-OT</alias>
+        <alias>MCP73811T-435I-OT</alias>
+      </aliases>
+      <description>Simple, Miniature Single-Cell, Fully Integrated Li-Ion / Li-Polymer Charge Management Controllers, 50mA-500mA, 4.2V, SOT23-5</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73812T-420I-OT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CEN" type="input"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UWED-eagle-import" part="4OPAMPS-AD8608ARUZ">
+      <fields>
+        <field name="Value">4OPAMPS-AD8608ARUZ</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="OUTA" type="unspc"/>
+        <pin num="P$2" name="-INA" type="unspc"/>
+        <pin num="P$3" name="+INA" type="unspc"/>
+        <pin num="P$4" name="V+" type="unspc"/>
+        <pin num="P$5" name="+INB" type="unspc"/>
+        <pin num="P$6" name="-INB" type="unspc"/>
+        <pin num="P$7" name="OUTB" type="unspc"/>
+        <pin num="P$8" name="OUTC" type="unspc"/>
+        <pin num="P$9" name="-INC" type="unspc"/>
+        <pin num="P$10" name="+INC" type="unspc"/>
+        <pin num="P$11" name="V-" type="unspc"/>
+        <pin num="P$12" name="+IND" type="unspc"/>
+        <pin num="P$13" name="-IND" type="unspc"/>
+        <pin num="P$14" name="OUTD" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="UWED-eagle-import" part="ADC_LTC2471IMS">
+      <fields>
+        <field name="Value">ADC_LTC2471IMS</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="REFOUT" type="unspc"/>
+        <pin num="P$2" name="COMP" type="unspc"/>
+        <pin num="P$3" name="A0" type="unspc"/>
+        <pin num="P$4" name="GND" type="unspc"/>
+        <pin num="P$5" name="SCL" type="unspc"/>
+        <pin num="P$6" name="SDA" type="unspc"/>
+        <pin num="P$7" name="GND" type="unspc"/>
+        <pin num="P$8" name="REF-" type="unspc"/>
+        <pin num="P$9" name="IN+" type="unspc"/>
+        <pin num="P$10" name="IN-" type="unspc"/>
+        <pin num="P$11" name="GND" type="unspc"/>
+        <pin num="P$12" name="VCC" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="UWED-eagle-import" part="C-USC0805">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-USC0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UWED-eagle-import" part="CONTACT_PADS_SMD_2">
+      <fields>
+        <field name="Value">CONTACT_PADS_SMD_2</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="1" type="unspc"/>
+        <pin num="P$2" name="2" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="UWED-eagle-import" part="DAC_AD5667RBRMZ-2">
+      <fields>
+        <field name="Value">DAC_AD5667RBRMZ-2</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="VOUT_A" type="unspc"/>
+        <pin num="P$2" name="VOUT_B" type="unspc"/>
+        <pin num="P$3" name="GND" type="unspc"/>
+        <pin num="P$4" name="/LDAC" type="unspc"/>
+        <pin num="P$5" name="/CLR" type="unspc"/>
+        <pin num="P$6" name="ADDR" type="unspc"/>
+        <pin num="P$7" name="SCL" type="unspc"/>
+        <pin num="P$8" name="SDA" type="unspc"/>
+        <pin num="P$9" name="VDD" type="unspc"/>
+        <pin num="P$10" name="REF" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="UWED-eagle-import" part="DC_JACK_0.7MM">
+      <fields>
+        <field name="Value">DC_JACK_0.7MM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CENTER" type="unspc"/>
+        <pin num="2" name="GND" type="unspc"/>
+        <pin num="3" name="SWITCH" type="unspc"/>
+        <pin num="4_1" name="4_1" type="unspc"/>
+        <pin num="4_2" name="4_2" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="UWED-eagle-import" part="LDO-MIC5205-3.3YM5-TR">
+      <fields>
+        <field name="Value">LDO-MIC5205-3.3YM5-TR</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="IN" type="unspc"/>
+        <pin num="P$2" name="GND" type="unspc"/>
+        <pin num="P$3" name="EN" type="unspc"/>
+        <pin num="P$4" name="BYP" type="unspc"/>
+        <pin num="P$6" name="OUT" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="UWED-eagle-import" part="LEDSML0805">
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LEDSML0805</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UWED-eagle-import" part="PMLL4150">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PMLL4150</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UWED-eagle-import" part="R-US_R0805">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-US_R0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UWED-eagle-import" part="SWITCH_MAX4643EUA">
+      <fields>
+        <field name="Value">SWITCH_MAX4643EUA</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="NO1" type="unspc"/>
+        <pin num="P$2" name="COM1" type="unspc"/>
+        <pin num="P$3" name="IN2" type="unspc"/>
+        <pin num="P$4" name="GND" type="unspc"/>
+        <pin num="P$5" name="NC2" type="unspc"/>
+        <pin num="P$6" name="COM2" type="unspc"/>
+        <pin num="P$7" name="IN1" type="unspc"/>
+        <pin num="P$8" name="V+" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="UWED-eagle-import" part="SWITCH_MAX4644EUT">
+      <fields>
+        <field name="Value">SWITCH_MAX4644EUT</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="IN" type="unspc"/>
+        <pin num="P$2" name="V+" type="unspc"/>
+        <pin num="P$3" name="GND" type="unspc"/>
+        <pin num="P$4" name="NC" type="unspc"/>
+        <pin num="P$5" name="COM" type="unspc"/>
+        <pin num="P$6" name="NO" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="UWED-eagle-import" part="SW_TOGGLELARGE">
+      <fields>
+        <field name="Value">SW_TOGGLELARGE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspc"/>
+        <pin num="3" name="3" type="unspc"/>
+        <pin num="COM" name="COM" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_RF-Transceiver-Modules" part="ESP32-WROOM-32">
+      <description>SMD MODULE, ESP32-D0WDQ6, 32MBIT</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</docs>
+      <fields>
+        <field name="Reference">MOD</field>
+        <field name="Value">ESP32-WROOM-32</field>
+        <field name="Footprint">digikey-footprints:ESP32-WROOM-32D</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</field>
+        <field name="Digi-Key_PN">1904-1010-1-ND</field>
+        <field name="MPN">ESP32-WROOM-32</field>
+        <field name="Category">RF/IF and RFID</field>
+        <field name="Family">RF Transceiver Modules</field>
+        <field name="DK_Datasheet_Link">https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/espressif-systems/ESP32-WROOM-32/1904-1010-1-ND/8544305</field>
+        <field name="Description">SMD MODULE, ESP32-D0WDQ6, 32MBIT</field>
+        <field name="Manufacturer">Espressif Systems</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="SENSOR_VP" type="input"/>
+        <pin num="5" name="SENSOR_VN" type="input"/>
+        <pin num="6" name="IO34" type="BiDi"/>
+        <pin num="7" name="IO35" type="BiDi"/>
+        <pin num="8" name="IO32" type="BiDi"/>
+        <pin num="9" name="IO33" type="BiDi"/>
+        <pin num="10" name="IO25" type="BiDi"/>
+        <pin num="11" name="IO26" type="BiDi"/>
+        <pin num="12" name="IO27" type="BiDi"/>
+        <pin num="13" name="IO14" type="BiDi"/>
+        <pin num="14" name="IO12" type="BiDi"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="IO13" type="BiDi"/>
+        <pin num="17" name="SHD/SD2" type="BiDi"/>
+        <pin num="18" name="SWP/SD3" type="BiDi"/>
+        <pin num="19" name="SCS/CMD" type="BiDi"/>
+        <pin num="20" name="SCK/CLK" type="BiDi"/>
+        <pin num="21" name="SDO/SD0" type="BiDi"/>
+        <pin num="22" name="SDI/SD1" type="BiDi"/>
+        <pin num="23" name="IO15" type="BiDi"/>
+        <pin num="24" name="IO2" type="BiDi"/>
+        <pin num="25" name="IO0" type="BiDi"/>
+        <pin num="26" name="IO4" type="BiDi"/>
+        <pin num="27" name="IO16" type="BiDi"/>
+        <pin num="28" name="IO17" type="BiDi"/>
+        <pin num="29" name="IO5" type="BiDi"/>
+        <pin num="30" name="IO18" type="BiDi"/>
+        <pin num="31" name="IO19" type="BiDi"/>
+        <pin num="32" name="NC" type="NotConnected"/>
+        <pin num="33" name="IO21" type="BiDi"/>
+        <pin num="34" name="RXD0" type="BiDi"/>
+        <pin num="35" name="TXD0" type="BiDi"/>
+        <pin num="36" name="IO22" type="BiDi"/>
+        <pin num="37" name="IO23" type="BiDi"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Battery_Management">
+      <uri>D:\mdeweerd\KiCAD\kicadlibs\kicad-symbols/Battery_Management.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>D:\mdeweerd\KiCAD\kicadlibs\kicad-symbols/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>D:\mdeweerd\KiCAD\kicadlibs\kicad-symbols/Jumper.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>D:\mdeweerd\KiCAD\kicadlibs\kicad-symbols/Switch.lib</uri>
+    </library>
+    <library logical="UWED-eagle-import">
+      <uri>D:\mdeweerd\KiCAD\uwed-kicad/UWED-eagle-import.lib</uri>
+    </library>
+    <library logical="dk_RF-Transceiver-Modules">
+      <uri>D:\mdeweerd\KiCAD\digikey-kicad-library/digikey-symbols/dk_RF-Transceiver-Modules.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C11-Pad1)">
+      <node ref="IC3" pin="P$7"/>
+      <node ref="C11" pin="1"/>
+      <node ref="IC3" pin="P$6"/>
+      <node ref="IC3" pin="P$10"/>
+    </net>
+    <net code="2" name="Net-(IC1-Pad19)">
+      <node ref="IC1" pin="19"/>
+    </net>
+    <net code="3" name="/CE">
+      <node ref="IC6" pin="P$1"/>
+      <node ref="U$7" pin="P$2"/>
+      <node ref="IC3" pin="P$8"/>
+    </net>
+    <net code="4" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1"/>
+      <node ref="IC8" pin="P$1"/>
+    </net>
+    <net code="5" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1"/>
+      <node ref="IC8" pin="P$2"/>
+    </net>
+    <net code="6" name="Net-(IC1-Pad6)">
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="7" name="Net-(IC1-Pad24)">
+      <node ref="IC1" pin="24"/>
+    </net>
+    <net code="8" name="Net-(IC1-Pad26)">
+      <node ref="IC1" pin="26"/>
+    </net>
+    <net code="9" name="Net-(IC1-Pad29)">
+      <node ref="IC1" pin="29"/>
+    </net>
+    <net code="10" name="Net-(IC1-Pad14)">
+      <node ref="IC1" pin="14"/>
+    </net>
+    <net code="11" name="Net-(IC1-Pad16)">
+      <node ref="IC1" pin="16"/>
+    </net>
+    <net code="12" name="Net-(IC1-Pad13)">
+      <node ref="IC1" pin="13"/>
+    </net>
+    <net code="13" name="Net-(IC1-Pad23)">
+      <node ref="IC1" pin="23"/>
+    </net>
+    <net code="14" name="Net-(IC1-Pad27)">
+      <node ref="IC1" pin="27"/>
+    </net>
+    <net code="15" name="Net-(IC1-Pad28)">
+      <node ref="IC1" pin="28"/>
+    </net>
+    <net code="16" name="Net-(IC1-Pad37)">
+      <node ref="IC1" pin="37"/>
+    </net>
+    <net code="17" name="Net-(IC1-Pad7)">
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="18" name="Net-(IC1-Pad9)">
+      <node ref="IC1" pin="9"/>
+    </net>
+    <net code="19" name="Net-(IC1-Pad8)">
+      <node ref="IC1" pin="8"/>
+    </net>
+    <net code="20" name="Net-(IC1-Pad22)">
+      <node ref="IC1" pin="22"/>
+    </net>
+    <net code="21" name="Net-(IC1-Pad21)">
+      <node ref="IC1" pin="21"/>
+    </net>
+    <net code="22" name="Net-(IC1-Pad20)">
+      <node ref="IC1" pin="20"/>
+    </net>
+    <net code="23" name="Net-(IC1-Pad17)">
+      <node ref="IC1" pin="17"/>
+    </net>
+    <net code="24" name="Net-(IC1-Pad18)">
+      <node ref="IC1" pin="18"/>
+    </net>
+    <net code="25" name="Net-(IC1-Pad10)">
+      <node ref="IC1" pin="10"/>
+    </net>
+    <net code="26" name="Net-(IC1-Pad11)">
+      <node ref="IC1" pin="11"/>
+    </net>
+    <net code="27" name="Net-(IC1-Pad12)">
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="28" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="IC4" pin="P$4"/>
+    </net>
+    <net code="29" name="Net-(C4-Pad1)">
+      <node ref="IC5" pin="P$4"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="30" name="/RE">
+      <node ref="U$7" pin="P$1"/>
+      <node ref="IC6" pin="P$2"/>
+      <node ref="IC3" pin="P$9"/>
+    </net>
+    <net code="31" name="/SIG+">
+      <node ref="IC7" pin="P$6"/>
+      <node ref="IC3" pin="P$12"/>
+      <node ref="IC6" pin="P$5"/>
+    </net>
+    <net code="32" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="33" name="/BOOT">
+      <node ref="R14" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="IC1" pin="25"/>
+    </net>
+    <net code="34" name="Net-(BOOT1-Pad2)">
+      <node ref="BOOT1" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="35" name="/EN">
+      <node ref="IC1" pin="3"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="36" name="GND">
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U$15" pin="P$1"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="LED1" pin="C"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="BOOT1" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="EN1" pin="1"/>
+      <node ref="IC1" pin="38"/>
+      <node ref="IC1" pin="39"/>
+      <node ref="IC7" pin="P$3"/>
+      <node ref="P1" pin="4_1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="P1" pin="3"/>
+      <node ref="P1" pin="2"/>
+      <node ref="P1" pin="4_2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="IC8" pin="P$7"/>
+      <node ref="IC8" pin="P$8"/>
+      <node ref="IC1" pin="15"/>
+      <node ref="U$6" pin="P$2"/>
+      <node ref="IC2" pin="P$3"/>
+      <node ref="IC2" pin="P$4"/>
+      <node ref="C18" pin="2"/>
+      <node ref="IC8" pin="P$10"/>
+      <node ref="J2" pin="2"/>
+      <node ref="IC2" pin="P$6"/>
+      <node ref="IC8" pin="P$11"/>
+      <node ref="U$3" pin="P$2"/>
+      <node ref="IC2" pin="P$5"/>
+      <node ref="C1" pin="2"/>
+      <node ref="IC6" pin="P$4"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="IC5" pin="P$2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="IC3" pin="P$11"/>
+      <node ref="IC8" pin="P$4"/>
+      <node ref="IC8" pin="P$3"/>
+      <node ref="IC4" pin="P$2"/>
+    </net>
+    <net code="37" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="EN1" pin="2"/>
+    </net>
+    <net code="38" name="/VCC_FTDI">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="39" name="/ADCIn">
+      <node ref="U$15" pin="P$2"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="40" name="/TXD">
+      <node ref="J1" pin="5"/>
+      <node ref="IC1" pin="35"/>
+    </net>
+    <net code="41" name="/RXD">
+      <node ref="IC1" pin="34"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="42" name="/CTS">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="43" name="/RTS">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="44" name="/OPA_OUT">
+      <node ref="IC3" pin="P$14"/>
+      <node ref="R5" pin="2"/>
+      <node ref="D4" pin="C"/>
+      <node ref="D6" pin="A"/>
+      <node ref="IC8" pin="P$9"/>
+      <node ref="C13" pin="2"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="45" name="/BatIn">
+      <node ref="IC1" pin="5"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="46" name="+3V3">
+      <node ref="IC4" pin="P$6"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="47" name="/WE">
+      <node ref="IC7" pin="P$5"/>
+      <node ref="U$6" pin="P$1"/>
+    </net>
+    <net code="48" name="Net-(R16-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="49" name="/PWR+">
+      <node ref="P2" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U$3" pin="P$1"/>
+    </net>
+    <net code="50" name="Net-(IC2-PadP$1)">
+      <node ref="IC2" pin="P$1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="51" name="Net-(C9-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="52" name="Net-(C11-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="53" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1"/>
+      <node ref="IC3" pin="P$5"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="54" name="Net-(IC2-PadP$10)">
+      <node ref="IC2" pin="P$10"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="55" name="Net-(C9-Pad1)">
+      <node ref="IC3" pin="P$1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="IC3" pin="P$2"/>
+    </net>
+    <net code="56" name="/SIG-">
+      <node ref="C13" pin="1"/>
+      <node ref="D1" pin="A"/>
+      <node ref="D3" pin="C"/>
+      <node ref="IC3" pin="P$13"/>
+      <node ref="IC7" pin="P$4"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="57" name="Net-(IC1-Pad32)">
+      <node ref="IC1" pin="32"/>
+    </net>
+    <net code="58" name="Net-(D1-PadC)">
+      <node ref="D1" pin="C"/>
+      <node ref="D2" pin="A"/>
+    </net>
+    <net code="59" name="Net-(D3-PadA)">
+      <node ref="D5" pin="C"/>
+      <node ref="D3" pin="A"/>
+    </net>
+    <net code="60" name="Net-(D2-PadC)">
+      <node ref="D2" pin="C"/>
+      <node ref="D4" pin="A"/>
+    </net>
+    <net code="61" name="Net-(D5-PadA)">
+      <node ref="D6" pin="C"/>
+      <node ref="D5" pin="A"/>
+    </net>
+    <net code="62" name="Net-(LED1-PadA)">
+      <node ref="R10" pin="1"/>
+      <node ref="LED1" pin="A"/>
+    </net>
+    <net code="63" name="Net-(C1-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="P2" pin="COM"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="IC4" pin="P$1"/>
+      <node ref="IC5" pin="P$3"/>
+      <node ref="R10" pin="2"/>
+      <node ref="IC5" pin="P$1"/>
+      <node ref="IC4" pin="P$3"/>
+    </net>
+    <net code="64" name="Net-(C10-Pad1)">
+      <node ref="IC3" pin="P$3"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="65" name="+3.3VA">
+      <node ref="IC3" pin="P$4"/>
+      <node ref="IC8" pin="P$12"/>
+      <node ref="IC5" pin="P$6"/>
+      <node ref="IC6" pin="P$8"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="IC2" pin="P$9"/>
+      <node ref="IC7" pin="P$2"/>
+    </net>
+    <net code="66" name="/SDA">
+      <node ref="IC2" pin="P$8"/>
+      <node ref="R11" pin="2"/>
+      <node ref="IC8" pin="P$6"/>
+      <node ref="IC1" pin="33"/>
+    </net>
+    <net code="67" name="/SCL">
+      <node ref="IC2" pin="P$7"/>
+      <node ref="IC8" pin="P$5"/>
+      <node ref="IC1" pin="36"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="68" name="/SwitchEl">
+      <node ref="IC1" pin="31"/>
+      <node ref="IC6" pin="P$7"/>
+    </net>
+    <net code="69" name="/SwitchIV">
+      <node ref="IC1" pin="30"/>
+      <node ref="IC7" pin="P$1"/>
+      <node ref="IC6" pin="P$3"/>
+    </net>
+    <net code="70" name="Net-(IC2-PadP$2)">
+      <node ref="IC2" pin="P$2"/>
+      <node ref="IC6" pin="P$6"/>
+    </net>
+  </nets>
+</export>
