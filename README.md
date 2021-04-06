@@ -6,7 +6,7 @@ Project not tested.
 
 This is based on the open-source project "Open-Source Potentiostat
 for Wireless Electrochemical Detection with Smartphones" 
-
+=
 See : https://dash.harvard.edu/bitstream/handle/1/37298552/5997382.pdf;jsessionid=20A09C47E57A66C76ECFA98192F31BF9?sequence=1
 
 The reference to "UWED, Alar Ainla, GMW Group Harvard Univ" was left on the PCB.  They did not design this one, but it was adapted from their Eagle Project.
