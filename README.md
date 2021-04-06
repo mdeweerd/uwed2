@@ -1,6 +1,7 @@
 # WARNING
 
 Project not tested.
+May need changes to move from ESP-WROOM-32 to ESP32-WROOM-32.
 
 # INFORMATION
 
@@ -23,7 +24,7 @@ And some other "minor" changes as well as an effort to improve the ground plaine
 
 See ac8b00850_si_002.zip from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5997382/ to get the original software as well as further information about this project.
 
-The software has to be adapted to the ESP32-WROOM-32.
+The software has to be adapted to the ESP-WROOM-32.
 
 # BUYING COMPONENTS
 
@@ -31,7 +32,7 @@ The original project ensured that all components were available from Digikey.
 
 The `UWED2_proto.xls` file shows where these components were available in 2019.
 
-At that time you would have been able to paste the following list on https://www.digikey.com/ordering/shoppingcart, but the BOM needs to be updated for some passive components and the ESP32-WROOM-32 (was: 1904-1010-1-ND):
+At that time you would have been able to paste the following list on https://www.digikey.com/ordering/shoppingcart, but the BOM needs to be updated for some passive components and the ESP-WROOM-32 (was: 1904-1010-1-ND):
 ```csv
 2,401-1427-1-ND,BOOT1;EN1
 6,490-3340-2-ND,C1;C2;C5;C6;C16;C18
