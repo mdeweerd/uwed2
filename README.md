@@ -1,7 +1,6 @@
 # WARNING
 
 Project not tested.
-May need changes to move from ESP-WROOM-32 to ESP32-WROOM-32.
 
 # INFORMATION
 
